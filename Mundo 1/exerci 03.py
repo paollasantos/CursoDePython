@@ -1,0 +1,8 @@
+n=input("digie algo:")
+print("tipo primitivo:",type(n))
+print("só tem espaço?",n.isspace())
+print("é um numero?",n.isnumeric())
+print("é alfabetico?",n.isalpha())
+print("é alfanumerico?",n.isalnum())
+print("está em maiúsculas?",n.isupper())
+print("está em minúsculas?",n.islower())

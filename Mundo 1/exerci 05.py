@@ -1,0 +1,22 @@
+# tabuada
+from ast import Num
+
+
+print ('-'*25)
+num = int(input(" digite um numero: "))
+print(" {} x {:2} = {} ".format(num, 1, (num*1)))
+print(" {} x {:2} = {} ".format(num, 2, (num*2)))
+print(" {} x {:2} = {} ".format(num, 3, (num*3)))
+print(" {} x {:2} = {} ".format(num, 4, (num*4)))
+print(" {} X {:2} = {} ".format(num, 5, (num*5)))
+print(" {} x {:2} = {} ".format(num, 6, (num*6)))
+print(" {} X {:2} = {} ".format(num, 7, (num*7)))
+print(" {} x {:2} = {} ".format(num, 8, (num*8)))
+print(" {} x {:2} = {} ".format(num, 9, (num*9)))
+print(" {} x {:2} = {}".format(num, 10, (num*10)))
+print('-'*25)
+ 
+ #conversor de moeda
+real = float(input("quanto de dinheiro você tem? R$ "))
+dolar = real/5.57
+print("com R$ {:.2f} você pode comprar US$ {:.2f}".format(real, dolar))
